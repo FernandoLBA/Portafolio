@@ -1,9 +1,10 @@
-# Página de Noticias
-![](./BuscadorAutos.png)
+# Página que simula enviar email
+![](./EnviarEmail.png)
 
 # Recursos
-- Normalize
-- Skeleton
+- Google Fonts
+- Tailwind
+- JavaScript
 
 # Ver en línea:
-https://gifted-keller-b363d9.netlify.app/
+https://hungry-hoover-5232f7.netlify.app/

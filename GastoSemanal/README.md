@@ -1,4 +1,4 @@
-# Página de Gastos Semanales
+# Página de Gasto Semanal
 ![](./GastoSemanal.png)
 
 # Recursos

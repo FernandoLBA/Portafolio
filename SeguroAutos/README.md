@@ -1,9 +1,9 @@
-# Página de Noticias
-![](./BuscadorAutos.png)
+# Página para cotizar seguro de autos
+![](./SeguroAutos.png)
 
 # Recursos
-- Normalize
-- Skeleton
+- Tailwind
+- JavaScript
 
 # Ver en línea:
-https://gifted-keller-b363d9.netlify.app/
+https://gracious-bartik-84f916.netlify.app/
