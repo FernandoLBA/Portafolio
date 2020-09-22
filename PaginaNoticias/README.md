@@ -1,5 +1,11 @@
-# Tech News HTML
-![](./TechNewsFastWeb.png)
+# Página de Noticias
 ![](./img/TechNewsFastWeb.png)
 
-https://github.com/FernandoLBA/Portafolio/tree/master/PaginaNoticias/img
+# Recursos
+- Font Awesome
+- Google Fonts
+- Scroll Reveal
+- Fazt Web
+
+# Ver en línea:
+https://zealous-bhaskara-19e50b.netlify.app/
