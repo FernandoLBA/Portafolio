@@ -1,5 +1,6 @@
 # Metodología BEM
 ![](./img/bem.png)
+- Nota: No es responsivo.
 
 # Recursos
 - Google Fonts
