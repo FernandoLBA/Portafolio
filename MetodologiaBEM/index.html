@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Metodología CSS BEM</title>
+     <link rel="stylesheet" href="estilos.css">
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Bem= bloque, elemento y modificador 
+     Cuando se requiere reutilizar elementos de una web, es necesario encerrarlos en bloques, siempre hay que agregar clases a cada elemento.
+     -->
+
+     <div class="contenedor">
+          <div class="contenedor__cards">
+               <div class="card"> <!-- bloque -->
+                    <a href="index.html" class="card__thumbnail"><!-- elemento -->
+                         <img class="card__img" src="/img/Logo.png" alt=""><!-- elemento -->
+                    </a>
+     
+                    <div class="card__textos">
+                         <h3 class="card__titulo">
+                              <a href="#" class="card__enlace">Lorem ipsum dolor sit.</a>
+                         </h3>
+                         <p class="card__extracto">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestias expedita possimus eos dolores autem distinctio dignissimos, dolor repellat saepe dicta tempora fugit aperiam amet suscipit molestiae ut eligendi?
+                         </p>
+     
+                         <!-- Se pueden colocar bloques dentro de otros bloques -->
+                         <!-- la clase boton--absolute, es un modificador de la clase boton -->
+                         <a href="#" class="boton boton--negro"> <!-- bloque -->
+                              <span class="boton__texto">Ver más</span>
+                              <i class="boton__icono fas fa-arrow-right "></i>
+                         </a>
+                    </div>
+     
+               </div><!-- card -->
+
+               <div class="card"> <!-- bloque -->
+                    <a href="index.html" class="card__thumbnail"><!-- elemento -->
+                         <img class="card__img" src="/img/Logo.png" alt=""><!-- elemento -->
+                    </a>
+     
+                    <div class="card__textos">
+                         <h3 class="card__titulo">
+                              <a href="#" class="card__enlace">Lorem ipsum dolor sit.</a>
+                         </h3>
+                         <p class="card__extracto">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestias expedita possimus eos dolores autem distinctio dignissimos, dolor repellat saepe dicta tempora fugit aperiam amet suscipit molestiae ut eligendi?lorem10
+                         </p>
+     
+                         <!-- Se pueden colocar bloques dentro de otros bloques -->
+                         <!-- la clase boton--absolute, es un modificador de la clase boton -->
+                         <a href="#" class="boton boton--negro"> <!-- bloque -->
+                              <span class="boton__texto">Ver más</span>
+                              <i class="boton__icono fas fa-arrow-right "></i>
+                         </a>
+                    </div>
+     
+               </div><!-- card -->
+          </div>
+
+          <div class="frase"><!-- bloque -->
+               <h2 class="frase__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, alias.</h2>
+               <a href="#" role="button" class="frase__boton boton boton--verde">
+                    <span class="boton__texto">
+                         Comprar
+                    </span>
+                    <i class="boton__icono fas fa-shopping-cart"></i>
+               </a>
+          </div>
+     </div><!-- contenedor -->
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+</body>
+</html>

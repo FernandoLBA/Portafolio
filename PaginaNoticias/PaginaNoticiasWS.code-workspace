@@ -5,9 +5,12 @@
 		},
 		{
 			"path": "..\\DibujoCSS"
+		},
+		{
+			"path": "..\\MetodologiaBEM"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "DibujoCSS"
+		"liveServer.settings.multiRootWorkspaceName": "MetodologiaBEM"
 	}
 }
