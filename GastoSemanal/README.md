@@ -1,9 +1,10 @@
-# Página de Noticias
-![](./BuscadorAutos.png)
+# Página de Gastos Semanales
+![](./GastoSemanal.png)
 
 # Recursos
-- Normalize
-- Skeleton
+- Bootstrap
+- Google Fonts
+- JavaScript
 
 # Ver en línea:
-https://gifted-keller-b363d9.netlify.app/
+https://hopeful-austin-59a07e.netlify.app/
