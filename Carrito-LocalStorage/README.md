@@ -1,9 +1,10 @@
-# Página de Noticias
-![](./BuscadorAutos.png)
+# Página con carrito de compras
+![](./CarritoLS.png)
 
 # Recursos
 - Normalize
 - Skeleton
+- JavaScript
 
 # Ver en línea:
-https://gifted-keller-b363d9.netlify.app/
+https://hardcore-brown-cfa990.netlify.app/
