@@ -213,6 +213,22 @@
      transform: rotate(45deg);
 }
 
+.cola_corbata {
+     width: 53px;
+     height: 53px;
+     background: #f00200;
+     border: 5px solid #000;
+     position: absolute;
+     left: 120px;
+     bottom: 0;
+     z-index: 50;
+     -moz-transform: rotate(45deg);
+     -webkit-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     transform: rotate(45deg);
+}
+
 /* Pantalones */
 .pantalones {
      width: 100%;
@@ -224,7 +240,7 @@
      z-index: 10;
 }
 
-.cinturon{
+.cinturon {
      width: 40px;
      height: 15px;
      position: absolute;
@@ -232,19 +248,62 @@
      background: #000;
 }
 
-.cinturon.primero{
+.cinturon.primero {
      left: 20px;
 }
 
-.cinturon.segundo{
+.cinturon.segundo {
      left: 80px;
-     background: red;
+     background: #000;
 }
 
-.cinturon.tercero{
+.cinturon.tercero {
      right: 80px;
 }
 
-.cinturon.cuarto{
+.cinturon.cuarto {
      right: 20px;
+}
+
+/* Poro */
+.poro {
+     background: #c0a402;
+     height: 40px;
+     width: 40px;
+     position: absolute;
+     border-radius: 50%;
+     z-index: 1;
+}
+
+.poro.primero{
+     top: 230px;
+     left: 20px;
+     height: 50px;
+     width: 50px;
+}
+
+.poro.segundo{
+     top: 200px;
+     left: 280px;
+}
+
+.poro.tercero{
+     top: 50px;
+     left: 260px;
+     height: 15px;
+     width: 15px;
+}
+
+.poro.cuarto{
+     top: 300px;
+     left: 50px;
+     height: 30px;
+     width: 30px;
+}
+
+.poro.quinto{
+     top: -20px;
+     left: -30px;
+     height: 80px;
+     width: 80px;
 }
