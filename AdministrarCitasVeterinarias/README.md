@@ -1,11 +1,9 @@
-# Página de Noticias
-![](./img/TechNewsFastWeb.png)
+# Administrar Pacientes de Clínica Veterinaria
+![](./AdministrarCitas.png)
 
 # Recursos
-- Font Awesome
-- Google Fonts
-- Scroll Reveal
-- Fazt Web
+- Bootstrap
+- JavaScript
 
 # Ver en línea:
-https://zealous-bhaskara-19e50b.netlify.app/
+https://xenodochial-montalcini-90960d.netlify.app/
