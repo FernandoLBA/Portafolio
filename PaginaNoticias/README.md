@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/FernandoLBA/Portafolio/master/Carrito-LocalStorage/img/TechNewsFastWeb.png
+https://github.com/FernandoLBA/Portafolio/tree/master/PaginaNoticias/img
