@@ -7,6 +7,7 @@
 - JavaScript
 - Google Fonts
 - Font Awesome
+- Hero Patterns
 
 # Ver en línea:
 http://www.fcvcomputer.com
