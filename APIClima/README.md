@@ -1,5 +1,5 @@
 # Página que consulta temperatura del clima consumiendo API de 
-![](./AdministrarCitas.png)
+![](./climaAPI.png)
 
 # Recursos
 - HTML5
