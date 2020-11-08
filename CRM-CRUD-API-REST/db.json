@@ -1,0 +1,11 @@
+{
+  "clientes": [
+    {
+      "nombre": "Fernando Barrios",
+      "email": "fer@correo.com",
+      "empresa": "Noctámbulo",
+      "telefono": "12345",
+      "id": 2
+    }
+  ]
+}
