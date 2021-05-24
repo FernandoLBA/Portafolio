@@ -1,0 +1,93 @@
+-Los componentes se crean dentro de la carpeta src, se puede crear una subcarpeta "componentes o components" para organizarlos mejor.
+
+-los componentes se invocan así:
+<Componente />
+
+-No se puede llamar a un componente sin incluirlo dentro de un elemento contenedor, como por ejemplo un div.
+Otra forma de hacer esto sin necesidad de escribir tanto código html es usar Fragment, en el import del componente principal colocamos import React, { Fragment } from 'react';
+y en el return englobamos el código dentro de un tag Fragment, por ejemplo:
+<Fragment>
+     <Componente />
+</Fragment>
+
+-En react los datos fluyen desde el componente principal(App.js) hacia los componentes hijos.
+
+Para pasarle datos a un componente, se usan Props y se usan según lo siguiente:
+(En el return del componente principal)
+<Fragment>
+     <Header 
+          titulo="Cotizador de Préstamos" <!-- este sería el prop -->
+     />
+</Fragment>
+
+Puede ser un string, funciones, números o cualquier tipo de datos de JS.
+
+(en el componente hijo)
+function Header(props) {
+     //Para mostrar los datos recibidos en el props por consola
+     console.log(props);
+
+     return(
+          <h1>Hola Mundo</>
+     );
+}
+
+en consola se recibe un objeto:
+>{titulo: "Cotizador de préstamos"}
+     titulo: "Cotizador de préstamos"
+    >__proto__: Object
+
+Se pueden pasar variables en el código jsx, mediante llaves, es decir, dentro de las llaves se escribe código JavaScript, por ejemplo:
+
+const variable = "variable";
+
+return (
+     <h1>Hola mundo {variable}</h1>
+);
+
+Para mostrar el props dentro del código, se hace lo siguiente:
+(se llama al props.nombreDelDato)
+return (
+     <h1>Hola mundo {props.titulo}</h1>
+);
+
+Si se usan varios props, por ejemplo:
+(App.js)
+function App() {
+  return (
+     <Fragment>
+       <Header 
+          titulo="Este sería un prop"
+          descripcion="Este es otro prop"
+       />  
+     </Fragment>
+/*     </div> */
+  );
+}
+
+Para mostrarlos estos deben estar dentro de un fragment.
+(Header.js)
+function Header(props){
+     return(
+          <Fragment>
+               <h1>Hola Mundo {props.titulo}</h1>
+               <h2>{props.descripcion}</h2>
+          </Fragment>
+     );
+}
+
+Otra forma de usar los props sin escribir props.talCosa, es hacer destructuring en el componente hijo:
+
+function Header({titulo, descripción}){
+     return(
+          <Fragment>
+               <h1>{titulo}</h1>
+               <h2>{descripcion}</h2>
+          </Fragment>
+     );
+}
+
+-El lenguaje de react se llama JSX es una mezcla de HTML y JavaScript.
+
+----------------------------------------------
+-2da Forma de escribir componentes
